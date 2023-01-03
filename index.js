@@ -1,9 +1,7 @@
-// primera linea del archivo
+const express = require('express');
+const app = express();
 
-const nuevaFuncion = nombre => {
-    console.log(nombre)
-}
 
-const otraFuncion = () => {
-    console.log('hace otra cosa')
-}
+app.listen(8080, ()=> {
+    console.log('Server running')
+})
